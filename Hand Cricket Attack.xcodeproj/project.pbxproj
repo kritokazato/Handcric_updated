@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8940E2351B15EE5100CEE9B3 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22A1B15EE5100CEE9B3 /* Contents.json */; };
+		8940E2361B15EE5100CEE9B3 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22B1B15EE5100CEE9B3 /* Icon-40.png */; };
+		8940E2371B15EE5100CEE9B3 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22C1B15EE5100CEE9B3 /* Icon-40@2x.png */; };
+		8940E2381B15EE5100CEE9B3 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22D1B15EE5100CEE9B3 /* Icon-40@3x.png */; };
+		8940E2391B15EE5100CEE9B3 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22E1B15EE5100CEE9B3 /* Icon-60@2x.png */; };
+		8940E23A1B15EE5100CEE9B3 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E22F1B15EE5100CEE9B3 /* Icon-60@3x.png */; };
+		8940E23B1B15EE5100CEE9B3 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E2301B15EE5100CEE9B3 /* Icon-76.png */; };
+		8940E23C1B15EE5100CEE9B3 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E2311B15EE5100CEE9B3 /* Icon-76@2x.png */; };
+		8940E23D1B15EE5100CEE9B3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E2321B15EE5100CEE9B3 /* Icon-Small.png */; };
+		8940E23E1B15EE5100CEE9B3 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E2331B15EE5100CEE9B3 /* Icon-Small@2x.png */; };
+		8940E23F1B15EE5100CEE9B3 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8940E2341B15EE5100CEE9B3 /* Icon-Small@3x.png */; };
+		894B9CC01B14B52A00FD89BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CBF1B14B52A00FD89BF /* AppDelegate.swift */; };
+		894B9CC21B14B52A00FD89BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CC11B14B52A00FD89BF /* ViewController.swift */; };
+		894B9CC51B14B52C00FD89BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894B9CC31B14B52C00FD89BF /* Main.storyboard */; };
+		894B9CC71B14B52D00FD89BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894B9CC61B14B52D00FD89BF /* Images.xcassets */; };
+		894B9CCA1B14B52D00FD89BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 894B9CC81B14B52D00FD89BF /* LaunchScreen.xib */; };
+		894B9CD61B14B53100FD89BF /* Hand_Cricket_AttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CD51B14B53100FD89BF /* Hand_Cricket_AttackTests.swift */; };
+		894B9CE01B14BF5800FD89BF /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CDF1B14BF5800FD89BF /* playViewController.swift */; };
+		894B9CE21B14C87100FD89BF /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CE11B14C87100FD89BF /* HelpViewController.swift */; };
+		894B9CE41B14CAC500FD89BF /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CE31B14CAC500FD89BF /* RuleViewController.swift */; };
+		894B9CE61B14CBB300FD89BF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894B9CE51B14CBB300FD89BF /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894B9CD01B14B53100FD89BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 894B9CB21B14B52700FD89BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894B9CB91B14B52700FD89BF;
+			remoteInfo = "Hand Cricket Attack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8940E22A1B15EE5100CEE9B3 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		8940E22B1B15EE5100CEE9B3 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		8940E22C1B15EE5100CEE9B3 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		8940E22D1B15EE5100CEE9B3 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		8940E22E1B15EE5100CEE9B3 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		8940E22F1B15EE5100CEE9B3 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		8940E2301B15EE5100CEE9B3 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		8940E2311B15EE5100CEE9B3 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		8940E2321B15EE5100CEE9B3 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8940E2331B15EE5100CEE9B3 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8940E2341B15EE5100CEE9B3 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		894B9CBA1B14B52700FD89BF /* Hand Cricket Attack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hand Cricket Attack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		894B9CBE1B14B52800FD89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894B9CBF1B14B52A00FD89BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		894B9CC11B14B52A00FD89BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		894B9CC41B14B52C00FD89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		894B9CC61B14B52D00FD89BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		894B9CC91B14B52D00FD89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		894B9CCF1B14B53100FD89BF /* Hand Cricket AttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hand Cricket AttackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		894B9CD41B14B53100FD89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894B9CD51B14B53100FD89BF /* Hand_Cricket_AttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand_Cricket_AttackTests.swift; sourceTree = "<group>"; };
+		894B9CDF1B14BF5800FD89BF /* playViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
+		894B9CE11B14C87100FD89BF /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		894B9CE31B14CAC500FD89BF /* RuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		894B9CE51B14CBB300FD89BF /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894B9CB71B14B52700FD89BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894B9CCC1B14B53100FD89BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8940E2291B15EE5100CEE9B3 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				8940E22A1B15EE5100CEE9B3 /* Contents.json */,
+				8940E22B1B15EE5100CEE9B3 /* Icon-40.png */,
+				8940E22C1B15EE5100CEE9B3 /* Icon-40@2x.png */,
+				8940E22D1B15EE5100CEE9B3 /* Icon-40@3x.png */,
+				8940E22E1B15EE5100CEE9B3 /* Icon-60@2x.png */,
+				8940E22F1B15EE5100CEE9B3 /* Icon-60@3x.png */,
+				8940E2301B15EE5100CEE9B3 /* Icon-76.png */,
+				8940E2311B15EE5100CEE9B3 /* Icon-76@2x.png */,
+				8940E2321B15EE5100CEE9B3 /* Icon-Small.png */,
+				8940E2331B15EE5100CEE9B3 /* Icon-Small@2x.png */,
+				8940E2341B15EE5100CEE9B3 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		894B9CB11B14B52700FD89BF = {
+			isa = PBXGroup;
+			children = (
+				894B9CBC1B14B52700FD89BF /* Hand Cricket Attack */,
+				894B9CD21B14B53100FD89BF /* Hand Cricket AttackTests */,
+				894B9CBB1B14B52700FD89BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		894B9CBB1B14B52700FD89BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				894B9CBA1B14B52700FD89BF /* Hand Cricket Attack.app */,
+				894B9CCF1B14B53100FD89BF /* Hand Cricket AttackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		894B9CBC1B14B52700FD89BF /* Hand Cricket Attack */ = {
+			isa = PBXGroup;
+			children = (
+				894B9CBF1B14B52A00FD89BF /* AppDelegate.swift */,
+				894B9CC11B14B52A00FD89BF /* ViewController.swift */,
+				894B9CE51B14CBB300FD89BF /* AboutViewController.swift */,
+				894B9CE31B14CAC500FD89BF /* RuleViewController.swift */,
+				894B9CE11B14C87100FD89BF /* HelpViewController.swift */,
+				894B9CDF1B14BF5800FD89BF /* playViewController.swift */,
+				894B9CC31B14B52C00FD89BF /* Main.storyboard */,
+				894B9CC61B14B52D00FD89BF /* Images.xcassets */,
+				894B9CC81B14B52D00FD89BF /* LaunchScreen.xib */,
+				894B9CBD1B14B52800FD89BF /* Supporting Files */,
+			);
+			path = "Hand Cricket Attack";
+			sourceTree = "<group>";
+		};
+		894B9CBD1B14B52800FD89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8940E2291B15EE5100CEE9B3 /* AppIcon.appiconset */,
+				894B9CBE1B14B52800FD89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		894B9CD21B14B53100FD89BF /* Hand Cricket AttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				894B9CD51B14B53100FD89BF /* Hand_Cricket_AttackTests.swift */,
+				894B9CD31B14B53100FD89BF /* Supporting Files */,
+			);
+			path = "Hand Cricket AttackTests";
+			sourceTree = "<group>";
+		};
+		894B9CD31B14B53100FD89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				894B9CD41B14B53100FD89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		894B9CB91B14B52700FD89BF /* Hand Cricket Attack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894B9CD91B14B53100FD89BF /* Build configuration list for PBXNativeTarget "Hand Cricket Attack" */;
+			buildPhases = (
+				894B9CB61B14B52700FD89BF /* Sources */,
+				894B9CB71B14B52700FD89BF /* Frameworks */,
+				894B9CB81B14B52700FD89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hand Cricket Attack";
+			productName = "Hand Cricket Attack";
+			productReference = 894B9CBA1B14B52700FD89BF /* Hand Cricket Attack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		894B9CCE1B14B53100FD89BF /* Hand Cricket AttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894B9CDC1B14B53100FD89BF /* Build configuration list for PBXNativeTarget "Hand Cricket AttackTests" */;
+			buildPhases = (
+				894B9CCB1B14B53100FD89BF /* Sources */,
+				894B9CCC1B14B53100FD89BF /* Frameworks */,
+				894B9CCD1B14B53100FD89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894B9CD11B14B53100FD89BF /* PBXTargetDependency */,
+			);
+			name = "Hand Cricket AttackTests";
+			productName = "Hand Cricket AttackTests";
+			productReference = 894B9CCF1B14B53100FD89BF /* Hand Cricket AttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		894B9CB21B14B52700FD89BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sam;
+				TargetAttributes = {
+					894B9CB91B14B52700FD89BF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					894B9CCE1B14B53100FD89BF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 894B9CB91B14B52700FD89BF;
+					};
+				};
+			};
+			buildConfigurationList = 894B9CB51B14B52700FD89BF /* Build configuration list for PBXProject "Hand Cricket Attack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 894B9CB11B14B52700FD89BF;
+			productRefGroup = 894B9CBB1B14B52700FD89BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894B9CB91B14B52700FD89BF /* Hand Cricket Attack */,
+				894B9CCE1B14B53100FD89BF /* Hand Cricket AttackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		894B9CB81B14B52700FD89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894B9CC51B14B52C00FD89BF /* Main.storyboard in Resources */,
+				894B9CCA1B14B52D00FD89BF /* LaunchScreen.xib in Resources */,
+				894B9CC71B14B52D00FD89BF /* Images.xcassets in Resources */,
+				8940E2371B15EE5100CEE9B3 /* Icon-40@2x.png in Resources */,
+				8940E2351B15EE5100CEE9B3 /* Contents.json in Resources */,
+				8940E23E1B15EE5100CEE9B3 /* Icon-Small@2x.png in Resources */,
+				8940E23C1B15EE5100CEE9B3 /* Icon-76@2x.png in Resources */,
+				8940E2381B15EE5100CEE9B3 /* Icon-40@3x.png in Resources */,
+				8940E23A1B15EE5100CEE9B3 /* Icon-60@3x.png in Resources */,
+				8940E23D1B15EE5100CEE9B3 /* Icon-Small.png in Resources */,
+				8940E23B1B15EE5100CEE9B3 /* Icon-76.png in Resources */,
+				8940E2361B15EE5100CEE9B3 /* Icon-40.png in Resources */,
+				8940E23F1B15EE5100CEE9B3 /* Icon-Small@3x.png in Resources */,
+				8940E2391B15EE5100CEE9B3 /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894B9CCD1B14B53100FD89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894B9CB61B14B52700FD89BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894B9CE61B14CBB300FD89BF /* AboutViewController.swift in Sources */,
+				894B9CE01B14BF5800FD89BF /* playViewController.swift in Sources */,
+				894B9CC21B14B52A00FD89BF /* ViewController.swift in Sources */,
+				894B9CC01B14B52A00FD89BF /* AppDelegate.swift in Sources */,
+				894B9CE21B14C87100FD89BF /* HelpViewController.swift in Sources */,
+				894B9CE41B14CAC500FD89BF /* RuleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894B9CCB1B14B53100FD89BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894B9CD61B14B53100FD89BF /* Hand_Cricket_AttackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		894B9CD11B14B53100FD89BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894B9CB91B14B52700FD89BF /* Hand Cricket Attack */;
+			targetProxy = 894B9CD01B14B53100FD89BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		894B9CC31B14B52C00FD89BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894B9CC41B14B52C00FD89BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		894B9CC81B14B52D00FD89BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894B9CC91B14B52D00FD89BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		894B9CD71B14B53100FD89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		894B9CD81B14B53100FD89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		894B9CDA1B14B53100FD89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hand Cricket Attack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		894B9CDB1B14B53100FD89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hand Cricket Attack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		894B9CDD1B14B53100FD89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hand Cricket AttackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hand Cricket Attack.app/Hand Cricket Attack";
+			};
+			name = Debug;
+		};
+		894B9CDE1B14B53100FD89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hand Cricket AttackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hand Cricket Attack.app/Hand Cricket Attack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		894B9CB51B14B52700FD89BF /* Build configuration list for PBXProject "Hand Cricket Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894B9CD71B14B53100FD89BF /* Debug */,
+				894B9CD81B14B53100FD89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894B9CD91B14B53100FD89BF /* Build configuration list for PBXNativeTarget "Hand Cricket Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894B9CDA1B14B53100FD89BF /* Debug */,
+				894B9CDB1B14B53100FD89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894B9CDC1B14B53100FD89BF /* Build configuration list for PBXNativeTarget "Hand Cricket AttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894B9CDD1B14B53100FD89BF /* Debug */,
+				894B9CDE1B14B53100FD89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 894B9CB21B14B52700FD89BF /* Project object */;
+}

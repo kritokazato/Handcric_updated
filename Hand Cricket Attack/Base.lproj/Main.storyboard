@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Drt-aM-MxM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="BYZ-38-t0r" customClass="ViewController" customModule="Hand_Cricket_Attack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2G-0h-neM">
+                                <rect key="frame" x="145" y="281" width="103" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Rules">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toruleviewpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SWs-za-4TR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A84-sL-54q">
+                                <rect key="frame" x="145" y="338" width="96" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tohelpviewpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAo-tp-0Fn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3S-be-87O">
+                                <rect key="frame" x="145" y="399" width="109" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="About">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toaboutviewpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ta3-vq-82g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hand cricket Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nq5-U3-SAh">
+                                <rect key="frame" x="86" y="141" width="234" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.96862751245498657" green="0.023529414087533951" blue="0.9647059440612793" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.070588238540000001" green="0.83529418710000003" blue="0.37647062539999998" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB2-Qa-jeK">
+                                <rect key="frame" x="145" y="219" width="102" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toplayviewpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5MZ-tZ-uAN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.9960784912109375" blue="0.97647064924240112" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="A84-sL-54q" firstAttribute="top" secondItem="x2G-0h-neM" secondAttribute="bottom" constant="24" id="73E-hG-hHX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A84-sL-54q" secondAttribute="trailing" constant="118" id="BDw-YG-oc0"/>
+                            <constraint firstItem="x2G-0h-neM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="129" id="C52-qc-2LX"/>
+                            <constraint firstItem="A84-sL-54q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="129" id="G8d-Zx-P84"/>
+                            <constraint firstItem="x2G-0h-neM" firstAttribute="top" secondItem="KB2-Qa-jeK" secondAttribute="bottom" constant="24" id="I1c-X7-r9j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I3S-be-87O" secondAttribute="trailing" constant="105" id="Mcm-tT-SUp"/>
+                            <constraint firstItem="nq5-U3-SAh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="77" id="PFT-xQ-7a1"/>
+                            <constraint firstItem="I3S-be-87O" firstAttribute="top" secondItem="A84-sL-54q" secondAttribute="bottom" constant="28" id="Qti-EG-k5W"/>
+                            <constraint firstItem="I3S-be-87O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="129" id="RRL-o2-F5b"/>
+                            <constraint firstItem="KB2-Qa-jeK" firstAttribute="top" secondItem="nq5-U3-SAh" secondAttribute="bottom" constant="53" id="a6I-06-0fN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x2G-0h-neM" secondAttribute="trailing" constant="111" id="bAN-Pl-b3D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nq5-U3-SAh" secondAttribute="trailing" constant="39" id="bRF-G7-0WV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KB2-Qa-jeK" secondAttribute="trailing" constant="112" id="dVc-7j-TEA"/>
+                            <constraint firstItem="KB2-Qa-jeK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="129" id="nIE-0i-62d"/>
+                            <constraint firstItem="nq5-U3-SAh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="u52-Tg-Mql"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TFk-hb-UzZ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709.5" y="-148.5"/>
+        </scene>
+        <!--Play View Controller-->
+        <scene sceneID="hNg-vM-iPg">
+            <objects>
+                <viewController storyboardIdentifier="playview" id="dlN-oh-UIQ" customClass="playViewController" customModule="Hand_Cricket_Attack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z9W-ew-Rfl"/>
+                        <viewControllerLayoutGuide type="bottom" id="SKZ-RE-AGF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Yg-ou-xfu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY ON !!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd2-RJ-KLR">
+                                <rect key="frame" x="118" y="81" width="108" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.729411780834198" green="0.08235294371843338" blue="0.72156864404678345" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A48-Af-IGi">
+                                <rect key="frame" x="84" y="240" width="177" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="HIT THE BALL">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BeginChase:" destination="dlN-oh-UIQ" eventType="touchUpInside" id="2JR-i3-2wf"/>
+                                    <action selector="beginchase:" destination="dlN-oh-UIQ" eventType="touchUpInside" id="U1X-17-km4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydx-fj-8Ao">
+                                <rect key="frame" x="95" y="338" width="142" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.90196084980000002" green="0.047058828179999998" blue="0.1647058874" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Target to chase" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRx-JD-qcl">
+                                <rect key="frame" x="16" y="133" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.29803922772407532" green="0.086274512112140656" blue="0.7137255072593689" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4dU-0d-7Nr">
+                                <rect key="frame" x="196" y="129" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter 'Y' to Start the Match" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpp-ST-JyX">
+                                <rect key="frame" x="25" y="293" width="279" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.094117656350135803" green="0.60000002384185791" blue="0.24705883860588074" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efv-Vg-qhb">
+                                <rect key="frame" x="113" y="190" width="119" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaH-bM-wJK">
+                                <rect key="frame" x="16" y="381" width="288" height="167"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.070588238537311554" green="0.83529418706893921" blue="0.37647062540054321" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="ydx-fj-8Ao" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="79" id="2EC-Up-bJA"/>
+                            <constraint firstItem="GRx-JD-qcl" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" id="3gC-VS-Yt9"/>
+                            <constraint firstItem="aaH-bM-wJK" firstAttribute="top" secondItem="ydx-fj-8Ao" secondAttribute="bottom" constant="19" id="62e-9U-6WH"/>
+                            <constraint firstItem="4dU-0d-7Nr" firstAttribute="top" secondItem="kd2-RJ-KLR" secondAttribute="bottom" constant="25" id="7jB-IS-ow2"/>
+                            <constraint firstItem="Cpp-ST-JyX" firstAttribute="top" secondItem="A48-Af-IGi" secondAttribute="bottom" constant="8" id="9JF-9K-myf"/>
+                            <constraint firstItem="efv-Vg-qhb" firstAttribute="top" secondItem="GRx-JD-qcl" secondAttribute="bottom" constant="36" id="BUq-qP-RQ7"/>
+                            <constraint firstItem="Cpp-ST-JyX" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="-7" id="F0L-zk-XwT"/>
+                            <constraint firstItem="GRx-JD-qcl" firstAttribute="top" secondItem="kd2-RJ-KLR" secondAttribute="bottom" constant="29" id="GlE-wh-f67"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ydx-fj-8Ao" secondAttribute="trailing" constant="67" id="HOM-sF-1X0"/>
+                            <constraint firstItem="kd2-RJ-KLR" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="102" id="J6a-Sj-bB8"/>
+                            <constraint firstItem="aaH-bM-wJK" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" id="LHc-oa-KIp"/>
+                            <constraint firstItem="kd2-RJ-KLR" firstAttribute="top" secondItem="z9W-ew-Rfl" secondAttribute="bottom" constant="61" id="Nt6-Ww-KxM"/>
+                            <constraint firstItem="ydx-fj-8Ao" firstAttribute="top" secondItem="Cpp-ST-JyX" secondAttribute="bottom" constant="17" id="OWL-gA-lyV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kd2-RJ-KLR" secondAttribute="trailing" constant="78" id="Oyw-bc-gcy"/>
+                            <constraint firstItem="efv-Vg-qhb" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="97" id="Que-aw-MTt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="efv-Vg-qhb" secondAttribute="trailing" constant="72" id="Vmp-yb-cda"/>
+                            <constraint firstItem="aaH-bM-wJK" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" id="YG5-aN-vra"/>
+                            <constraint firstItem="4dU-0d-7Nr" firstAttribute="leading" secondItem="GRx-JD-qcl" secondAttribute="trailing" constant="62" id="YIN-G9-qLv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4dU-0d-7Nr" secondAttribute="trailing" constant="11" id="bB6-c3-chg"/>
+                            <constraint firstItem="A48-Af-IGi" firstAttribute="top" secondItem="efv-Vg-qhb" secondAttribute="bottom" constant="20" id="cCA-P6-WfP"/>
+                            <constraint firstItem="SKZ-RE-AGF" firstAttribute="top" secondItem="aaH-bM-wJK" secondAttribute="bottom" constant="20" id="gEg-LE-pLE"/>
+                            <constraint firstItem="Cpp-ST-JyX" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="9" id="jV0-4F-Lbr"/>
+                            <constraint firstItem="Cpp-ST-JyX" firstAttribute="top" secondItem="A48-Af-IGi" secondAttribute="bottom" constant="8" id="ku7-Ls-tNR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A48-Af-IGi" secondAttribute="trailing" constant="43" id="mp1-Js-OLB"/>
+                            <constraint firstItem="A48-Af-IGi" firstAttribute="leading" secondItem="1Yg-ou-xfu" secondAttribute="leadingMargin" constant="68" id="oKJ-yX-5VW"/>
+                            <constraint firstItem="Cpp-ST-JyX" firstAttribute="trailing" secondItem="1Yg-ou-xfu" secondAttribute="trailingMargin" id="s13-hn-qHk"/>
+                            <constraint firstItem="aaH-bM-wJK" firstAttribute="trailing" secondItem="1Yg-ou-xfu" secondAttribute="trailingMargin" id="tmb-hL-7PA"/>
+                            <constraint firstItem="kd2-RJ-KLR" firstAttribute="top" secondItem="z9W-ew-Rfl" secondAttribute="bottom" constant="27" id="yVN-tn-tFZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="yVN-tn-tFZ"/>
+                                <exclude reference="F0L-zk-XwT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="chase" destination="4dU-0d-7Nr" id="C63-sf-JfZ"/>
+                        <outlet property="currscorelabel" destination="ydx-fj-8Ao" id="Su9-XC-yVE"/>
+                        <outlet property="currscoreoutput" destination="aaH-bM-wJK" id="IRR-pM-u5M"/>
+                        <outlet property="input" destination="efv-Vg-qhb" id="oJv-qG-bmR"/>
+                        <outlet property="settarget" destination="GRx-JD-qcl" id="Tg8-sS-TZB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Pd-kS-hwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1181" y="118"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="QsE-fD-Xix">
+            <objects>
+                <viewController storyboardIdentifier="aboutview" id="Zxj-fQ-rN5" customClass="AboutViewController" customModule="Hand_Cricket_Attack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="erl-x2-EZW"/>
+                        <viewControllerLayoutGuide type="bottom" id="oCg-rJ-Kyg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BqD-mZ-LHb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About the app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYs-Db-y7d">
+                                <rect key="frame" x="92" y="85" width="124" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.98039221759999995" green="0.015686275440000001" blue="0.84313732389999996" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkY-bJ-BsA">
+                                <rect key="frame" x="40" y="110" width="240" height="329"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Ever wanted to Blossom Up your childhood memories?? well we provide you with such a situation. This app is a digital make of the classical hand cricket game. The app is made in a way to give the feel about the hand cricket game. The hand cricket game requires a unique mind to play. This is basically a strategical minded game. squeeze your brain and Let's ready to bring out the hidden talents.Let the Hunt Begins!!!  Bring it on !!!                          </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.99607849120000003" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="JkY-bJ-BsA" firstAttribute="top" secondItem="XYs-Db-y7d" secondAttribute="bottom" constant="2" id="2st-jP-mZU"/>
+                            <constraint firstItem="JkY-bJ-BsA" firstAttribute="leading" secondItem="BqD-mZ-LHb" secondAttribute="leadingMargin" constant="24" id="PN5-Jy-xps"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JkY-bJ-BsA" secondAttribute="trailing" constant="24" id="SQc-45-fPd"/>
+                            <constraint firstItem="XYs-Db-y7d" firstAttribute="leading" secondItem="BqD-mZ-LHb" secondAttribute="leadingMargin" constant="76" id="ohy-Ra-IO8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XYs-Db-y7d" secondAttribute="trailing" constant="88" id="tkA-GF-Jwt"/>
+                            <constraint firstItem="oCg-rJ-Kyg" firstAttribute="top" secondItem="JkY-bJ-BsA" secondAttribute="bottom" constant="129" id="xm9-A5-dqk"/>
+                            <constraint firstItem="XYs-Db-y7d" firstAttribute="top" secondItem="erl-x2-EZW" secondAttribute="bottom" constant="65" id="zKD-a8-O6j"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xye-iU-Lyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="792"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="7Co-mY-5Lo">
+            <objects>
+                <viewController storyboardIdentifier="helpview" id="3ZU-7c-erd" customClass="HelpViewController" customModule="Hand_Cricket_Attack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BQZ-8a-40y"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQl-qv-77H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zow-MJ-Aoo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvA-Ha-LeC">
+                                <rect key="frame" x="128" y="64" width="64" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.8980392814" green="0.0" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="How to play the game ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lx-O8-JaR">
+                                <rect key="frame" x="72" y="106" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.90196084980000002" green="0.047058828179999998" blue="0.1647058874" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQz-z9-b0W">
+                                <rect key="frame" x="40" y="184" width="240" height="313"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1.Initially Set Your target to Chase.                                             2.To Begin game enter 'Y' in the box above "Hit the ball”.                                   3.After that enter the run you gonna score in the same box.                       4.Then hit the "Hit The Ball" button to strike the ball.                                            5.If the entered run matches with CPU then You are OUT!! and game ends                                                  6.If not your run gets added until You reach the target.                         7.Enter 'Y' again if you want to play again.      </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.99607849120000003" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fvA-Ha-LeC" secondAttribute="trailing" constant="112" id="WJF-8F-MFA"/>
+                            <constraint firstItem="3lx-O8-JaR" firstAttribute="leading" secondItem="Zow-MJ-Aoo" secondAttribute="leadingMargin" constant="56" id="WlW-Mc-ASz"/>
+                            <constraint firstItem="fvA-Ha-LeC" firstAttribute="top" secondItem="BQZ-8a-40y" secondAttribute="bottom" constant="44" id="YjH-mM-e9g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3lx-O8-JaR" secondAttribute="trailing" constant="17" id="Z4B-Wz-SyR"/>
+                            <constraint firstItem="3lx-O8-JaR" firstAttribute="top" secondItem="fvA-Ha-LeC" secondAttribute="bottom" constant="13" id="e6Q-rL-ydS"/>
+                            <constraint firstItem="3lx-O8-JaR" firstAttribute="top" secondItem="fvA-Ha-LeC" secondAttribute="bottom" constant="-1" id="e6W-LL-QC8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3lx-O8-JaR" secondAttribute="trailing" constant="24" id="oao-Yi-RR1"/>
+                            <constraint firstItem="3lx-O8-JaR" firstAttribute="leading" secondItem="Zow-MJ-Aoo" secondAttribute="leadingMargin" id="rmK-Kq-Htr"/>
+                            <constraint firstItem="fvA-Ha-LeC" firstAttribute="leading" secondItem="Zow-MJ-Aoo" secondAttribute="leadingMargin" constant="112" id="wpj-fW-VKz"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Z4B-Wz-SyR"/>
+                                <exclude reference="e6W-LL-QC8"/>
+                                <exclude reference="rmK-Kq-Htr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9k-yo-8d6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810" y="792"/>
+        </scene>
+        <!--Rule View Controller-->
+        <scene sceneID="0Gu-FL-5Vn">
+            <objects>
+                <viewController storyboardIdentifier="ruleview" id="9gE-4V-XyJ" customClass="RuleViewController" customModule="Hand_Cricket_Attack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CO0-G8-ogX"/>
+                        <viewControllerLayoutGuide type="bottom" id="cRS-td-hS2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cc4-3g-TKp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rules of the Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTK-sb-EZ5">
+                                <rect key="frame" x="60" y="41" width="187" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.98039221759999995" green="0.015686275440000001" blue="0.84313732389999996" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iq7-Oc-wQG">
+                                <rect key="frame" x="40" y="114" width="240" height="313"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1.Start the game by entering  'Y' in the box above "Hit The Button"                                             2.You must enter the target you wanted to chase in the box next to  "Target to Chase"                                   3.In order to win the game you must chase down the target                       4. The possible scoring runs are 1,2,3,4,5,6                                            5.If the entered run matches with CPU then You are OUT!! and game ends                                                  6.You have only 1 wicket to Chase the target down       </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.023529414087533951" green="0.90588241815567017" blue="0.96078437566757202" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="HTK-sb-EZ5" firstAttribute="leading" secondItem="cc4-3g-TKp" secondAttribute="leadingMargin" constant="44" id="Cbq-cl-wdK"/>
+                            <constraint firstItem="HTK-sb-EZ5" firstAttribute="top" secondItem="CO0-G8-ogX" secondAttribute="bottom" constant="21" id="bbp-B2-opo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HTK-sb-EZ5" secondAttribute="trailing" constant="57" id="yM3-bE-HXb"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bA6-gW-x0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165" y="792"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7xd-I8-SlV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Drt-aM-MxM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sou-F3-Z67">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1w8-l1-934"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOk-6U-W3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="118"/>
+        </scene>
+    </scenes>
+</document>
